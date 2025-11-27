@@ -1436,7 +1436,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .testimonials-text {
     line-clamp: 2;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 5;
   }
 
   /* testimonials modal */
