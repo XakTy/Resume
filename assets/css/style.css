@@ -1609,6 +1609,11 @@ textarea.form-input::-webkit-resizer { display: none; }
     max-width: 680px;
   }
 
+  .portfolio-modal {
+     gap: 35px;
+    max-width: 680px;
+  }
+
   .modal-avatar-box img { width: 80px; }
 
 
