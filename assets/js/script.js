@@ -197,3 +197,20 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+// Hash-based routing
+function handleHashChange() {
+    const hash = window.location.hash.substring(1) || 'about';
+    activatePage(hash);
+}
+
+document.querySelectorAll('.navbar-link').forEach(link => {
+    link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const hash = this.getAttribute('href').substring(1);
+        activatePage(hash);
+    });
+});
+
+// Инициализация
+document.addEventListener('DOMContentLoaded', handleHashChange);
+window.addEventListener('hashchange', handleHashChange);
