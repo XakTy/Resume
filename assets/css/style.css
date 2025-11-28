@@ -1368,6 +1368,48 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
 
+  /**
+   * #Portfolio
+   */
+    .portfolio-modal {
+    width: 98%;
+    padding: 12px;
+    margin: 5px;
+    border-radius: 14px;
+  }
+  
+  .portfolio-media {
+    gap: 0.5rem;
+  }
+  
+  .portfolio-media img,
+  .portfolio-media iframe,
+  .portfolio-media video {
+    max-height: 35vh;
+    border-radius: 10px;
+  }
+  
+  .modal-title {
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+  
+  .portfolio-modal p {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+  
+  .modal-content {
+    margin-top: 8px;
+  }
+  
+  .modal-close-btn {
+    top: 8px;
+    right: 8px;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+  }
 
   /**
    * #NAVBAR
@@ -1511,19 +1553,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   .blog-posts-list { gap: 30px; }
 
   .blog-content { padding: 25px; }
-
-  .portfolio-modal {
-    width: 95%;
-    padding: 15px;
-    margin: 10px;
-  }
-  
-  .portfolio-media img,
-  .portfolio-media iframe,
-  .portfolio-media video {
-    max-width: 100%;
-    max-height: 50vh;
-  }
   
   .modal-title {
     font-size: 20px;
@@ -1647,18 +1676,87 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .project-list, .blog-posts-list { grid-template-columns: 1fr 1fr; }
 
-  .portfolio-modal {
+
+  /**
+   * PORTFOLIO MODAl
+   */
+
+.portfolio-modal {
     width: 95%;
     padding: 15px;
     margin: 10px;
+    border-radius: 16px;
   }
   
   .portfolio-media img,
   .portfolio-media iframe,
   .portfolio-media video {
     max-width: 100%;
-    max-height: 50vh;
+    max-height: 40vh;
   }
+  
+  .modal-title {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .portfolio-modal p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .modal-close-btn {
+    top: 10px;
+    right: 10px;
+    width: 28px;
+    height: 28px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 580px) {
+  .portfolio-modal {
+    width: 98%;
+    padding: 12px;
+    margin: 5px;
+    border-radius: 14px;
+  }
+  
+  .portfolio-media {
+    gap: 0.5rem;
+  }
+  
+  .portfolio-media img,
+  .portfolio-media iframe,
+  .portfolio-media video {
+    max-height: 35vh;
+    border-radius: 10px;
+  }
+  
+  .modal-title {
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+  
+  .portfolio-modal p {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+  
+  .modal-content {
+    margin-top: 8px;
+  }
+  
+  .modal-close-btn {
+    top: 8px;
+    right: 8px;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+  }
+
+
+
 
   /**
    * CONTACT
